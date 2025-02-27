@@ -12,6 +12,9 @@ public class main {
     public static void main(String[] args){
         System.out.println("Hello World");
         Produto p1 = new Produto();
+        System.out.println("ATENCAO: " + p1);
+        System.out.println("ATENCAO: " + p1.toString());
+
         
         /* System.out.println(p1);
         System.out.println(p1.getPreco());

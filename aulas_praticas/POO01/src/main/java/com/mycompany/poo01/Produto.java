@@ -56,4 +56,8 @@ public class Produto {
             System.out.println("Estoque insuficiente");
         }
     }
+    
+    public String toString(){
+        return "Nome: " + nome + ", preco: " + preco+ ", qtd: " +qtd;
+    }
 }
